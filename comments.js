@@ -3,6 +3,7 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
+var x;
 
 // connect to database
 mongoose.connect('mongodb://localhost/comment');
